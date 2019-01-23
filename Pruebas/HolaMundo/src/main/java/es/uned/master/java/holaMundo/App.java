@@ -1,4 +1,4 @@
-package es.uned.master.java.HolaMundo;
+package es.uned.master.java.holaMundo;
 
 /**
  * Hello world!
