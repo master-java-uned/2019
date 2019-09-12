@@ -17,9 +17,11 @@ import es.uned.master.java.service.PersonaService;
 public class Controlador {
 	@Autowired
 	private PersonaService service;
+	// private PersonaRepository repo;
 	
 	@GetMapping
 	public List<Persona>listar(){
 		return service.listar();
+		// return repo.findAll();
 	}
 }
