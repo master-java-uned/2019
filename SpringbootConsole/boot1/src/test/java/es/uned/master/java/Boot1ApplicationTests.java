@@ -1,5 +1,6 @@
 package es.uned.master.java;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import java.math.BigDecimal;
@@ -32,7 +33,7 @@ public class Boot1ApplicationTests {
 	public void productLombokTest() {
 		Product p = new Product();
 		p.setName("Carlos");
-		assertTrue(p.getName().equals("Carlos"));
+		assertFalse(p.getName().equals("Carlosss"));
 	}
 		private Product populateProduct(String nombre, int precio, String image, 
 					int cantidad, String descripcion, boolean feature) {

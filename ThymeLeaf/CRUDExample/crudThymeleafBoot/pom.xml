@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>es.uned.master.java</groupId>
-	<artifactId>springAngular</artifactId>
+	<artifactId>springBootThymeleaf</artifactId>
 	<version>0.0.1</version>
-	<name>crudAngular</name>
-	<description>Angular con Spring</description>
+	<name>crudAngular-1</name>
+	<description>Spring Boot with Thymeleaf</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -52,19 +52,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit-jupiter.version}</version>
-            <scope>test</scope>
-        </dependency>
-		<!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
-		<dependency>
-		    <groupId>org.mockito</groupId>
-		    <artifactId>mockito-core</artifactId>
-		    <version>3.0.0</version>
-		    <scope>test</scope>
 		</dependency>
 	</dependencies>
 
